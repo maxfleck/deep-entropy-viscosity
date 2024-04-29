@@ -1,0 +1,10 @@
+*backup*
+*checkpoint*
+*/*backup*
+*/*checkpoint*
+test*
+.ipynb_*/
+*_checkpoints*
+*__pycache__*
+*/*__pycache__*
+model*
