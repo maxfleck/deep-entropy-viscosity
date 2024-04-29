@@ -2,7 +2,7 @@
 
 This model approach driven by entropy scaling and deep earning allows to predict viscosities for wide ranges of substances and state points within milliseconds (which was not possible before with the prediction accuracy achieved here).
 
-A [preprint](https://chemrxiv.org/engage/chemrxiv/article-details/66268bc621291e5d1d62b8bf) of the underlying publication is available.
+A [preprint](https://chemrxiv.org/engage/chemrxiv/article-details/66268bc621291e5d1d62b8bf) of the underlying publication is available. For legal reasons, only the implementation of the architecture is available but no trained models.
 
 Integrating entropy scaling into a deep learning architecture to predict viscosities.
 
@@ -56,92 +56,63 @@ The MEADs given refer to the differences between the experimental and predicted 
 The results are broken down by substance family. In the left column you can see predictions for all training, validation and test data for the respective family. Randomly selected species can be seen on the right. All of these species were not used for training, but for validation. So these are predictions.
 
 * * * * * * * * * *
-![](model0/plots/temperature_n-alkanes.png)
-![](model0/plots/entropy_n-alkanes.png)
+![](model0/plots/pub_n-alkanes.png)
 * * * * * * * * * *
-![](model0/plots/temperature_n-alcohols.png)
-![](model0/plots/entropy_n-alcohols.png)
+![](model0/plots/pub_n-alcohols.png)
 * * * * * * * * * *
-![](model0/plots/temperature_1-alkenes.png)
-![](model0/plots/entropy_1-alkenes.png)
+![](model0/plots/pub_1-alkenes.png)
 * * * * * * * * * *
-![](model0/plots/temperature_acetates.png)
-![](model0/plots/entropy_acetates.png)
+![](model0/plots/pub_acetates.png)
 * * * * * * * * * *
-![](model0/plots/temperature_aldehydes.png)
-![](model0/plots/entropy_aldehydes.png)
+![](model0/plots/pub_aldehydes.png)
 * * * * * * * * * *
-![](model0/plots/temperature_anhydrides.png)
-![](model0/plots/entropy_anhydrides.png)
+![](model0/plots/pub_anhydrides.png)
 * * * * * * * * * *
-![](model0/plots/temperature_c,_h,_br_compounds.png)
-![](model0/plots/entropy_c,_h,_br_compounds.png)
+![](model0/plots/pub_c,_h,_br_compounds.png)
 * * * * * * * * * *
-![](model0/plots/temperature_c,_h,_f_compounds.png)
-![](model0/plots/entropy_c,_h,_f_compounds.png)
+![](model0/plots/pub_c,_h,_f_compounds.png)
 * * * * * * * * * *
-![](model0/plots/temperature_c,_h,_i_compounds.png)
-![](model0/plots/entropy_c,_h,_i_compounds.png)
+![](model0/plots/pub_c,_h,_i_compounds.png)
 * * * * * * * * * *
-![](model0/plots/temperature_c,_h,_multihalogen_compounds.png)
-![](model0/plots/entropy_c,_h,_multihalogen_compounds.png)
+![](model0/plots/pub_c,_h,_multihalogen_compounds.png)
 * * * * * * * * * *
-![](model0/plots/temperature_c,_h,_no2_compounds.png)
-![](model0/plots/entropy_c,_h,_no2_compounds.png)
+![](model0/plots/pub_c,_h,_no2_compounds.png)
 * * * * * * * * * *
-![](model0/plots/temperature_dialkenes.png)
-![](model0/plots/entropy_dialkenes.png)
+![](model0/plots/pub_dialkenes.png)
 * * * * * * * * * *
-![](model0/plots/temperature_dimethylalkanes.png)
-![](model0/plots/entropy_dimethylalkanes.png)
+![](model0/plots/pub_dimethylalkanes.png)
 * * * * * * * * * *
-![](model0/plots/temperature_epoxides.png)
-![](model0/plots/entropy_epoxides.png)
+![](model0/plots/pub_epoxides.png)
 * * * * * * * * * *
-![](model0/plots/temperature_formates.png)
-![](model0/plots/entropy_formates.png)
+![](model0/plots/pub_formates.png)
 * * * * * * * * * *
-![](model0/plots/temperature_ketones.png)
-![](model0/plots/entropy_ketones.png)
+![](model0/plots/pub_ketones.png)
 * * * * * * * * * *
-![](model0/plots/temperature_methylalkanes.png)
-![](model0/plots/entropy_methylalkanes.png)
+![](model0/plots/pub_methylalkanes.png)
 * * * * * * * * * *
-![](model0/plots/temperature_n-alkylbenzenes.png)
-![](model0/plots/entropy_n-alkylbenzenes.png)
+![](model0/plots/pub_n-alkylbenzenes.png)
 * * * * * * * * * *
-![](model0/plots/temperature_naphthalenes.png)
-![](model0/plots/entropy_naphthalenes.png)
+![](model0/plots/pub_naphthalenes.png)
 * * * * * * * * * *
-![](model0/plots/temperature_nitriles.png)
-![](model0/plots/entropy_nitriles.png)
+![](model0/plots/pub_nitriles.png)
 * * * * * * * * * *
-![](model0/plots/temperature_other_alkanes.png)
-![](model0/plots/entropy_other_alkanes.png)
+![](model0/plots/pub_other_alkanes.png)
 * * * * * * * * * *
-![](model0/plots/temperature_other_alkylbenzenes.png)
-![](model0/plots/entropy_other_alkylbenzenes.png)
+![](model0/plots/pub_other_alkylbenzenes.png)
 * * * * * * * * * *
-![](model0/plots/temperature_other_amines,_imines.png)
-![](model0/plots/entropy_other_amines,_imines.png)
+![](model0/plots/pub_other_amines,_imines.png)
 * * * * * * * * * *
-![](model0/plots/temperature_other_ethers_diethers.png)
-![](model0/plots/entropy_other_ethers_diethers.png)
+![](model0/plots/pub_other_ethers_diethers.png)
 * * * * * * * * * *
-![](model0/plots/temperature_propionates_and_butyrates.png)
-![](model0/plots/entropy_propionates_and_butyrates.png)
+![](model0/plots/pub_propionates_and_butyrates.png)
 * * * * * * * * * *
-![](model0/plots/temperature_silanes_siloxanes.png)
-![](model0/plots/entropy_silanes_siloxanes.png)
+![](model0/plots/pub_silanes_siloxanes.png)
 * * * * * * * * * *
-![](model0/plots/temperature_sulfides_thiophenes.png)
-![](model0/plots/entropy_sulfides_thiophenes.png)
+![](model0/plots/pub_sulfides_thiophenes.png)
 * * * * * * * * * *
-![](model0/plots/temperature_terpenes.png)
-![](model0/plots/entropy_terpenes.png)
+![](model0/plots/pub_terpenes.png)
 * * * * * * * * * *
-![](model0/plots/temperature_unknown.png)
-![](model0/plots/entropy_unknown.png)
+![](model0/plots/pub_unknown.png)
 * * * * * * * * * *
 
 ## Future
